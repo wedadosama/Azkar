@@ -1,32 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet"  href="asstes/styles/main.css">
-  <title>Azkar</title>
-</head>
-<body dir="rtl">
-  <header>
-    <div class="container">
-      <a href="index.html" class="logo"> أذكار</a>
-      <nav>
-        <ul id="nav-menu">
-          <li><a href="#">أذكار الصباح</a></li>
-          <li><a href="#">أذكار المساء</a></li>
-          <li><a href="#">أذكار بعد السلا من الصلاه</a></li>
-          <li><a href="">تسابيح</a></li>
-          <li><a href="#">أذكار النوم</a></li>
-          <li><a href="#">أذكار الاستيقاظ</a></li>
-          <li><a href="#">أعيه القران</a></li>
-          <li><a href="#">أدعيه الأنبياء</a></li>
-        </ul>
-        <img src="asstes/icons/dark.webp" id="toggle-theme" alt="dark mode">
-        <img src="asstes/icons/menu.webp" id="toggle-nav-menu" class="toggle-menu" alt="toggle-nav-menu">
-      </nav>
-     
-    </div>
-  </header>
-  <script src="asstes/scrpits/main.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="asstes/styles/main.css" />
+    <title>Azkar</title>
+  </head>
+  <body dir="rtl">
+    <header>
+      <div class="container">
+        <a href="index.html" class="logo"> أذكار</a>
+        <nav>
+          <ul id="nav-menu">
+            <li><a href="#morning-remembarances">أذكار الصباح</a></li>
+            <li><a href="#evening-prayers">أذكار المساء</a></li>
+            <li><a href="#remembrances- after -greeting- from -prayer">أذكار بعد السلا من الصلاه</a></li>
+            <li><a href="#rosaries">تسابيح</a></li>
+            <li><a href="#sleeping-remembrances">أذكار النوم</a></li>
+            <li><a href="#wake-up-supplications">أذكار الاستيقاظ</a></li>
+            <li><a href="#quranic-supplications">أدعيه القران</a></li>
+            <li><a href="#supplications-of-the-prophets">أدعيه الأنبياء</a></li>
+          </ul>
+          <img src="asstes/icons/dark.webp" id="toggle-theme" alt="dark mode" />
+          <img src="asstes/icons/menu.webp" id="toggle-nav-menu" class="toggle-menu" alt="toggle-nav-menu" />
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="morning-remembarances">
+        <div class="container">
+          <h2>أذكار الصباح</h2>
+          <oi id="morning-list"></oi>
+        </div>
+      </section>
+      <section id="evening-prayers">
+        <div class="container">
+          <h2>أذكار المساء</h2>
+          <oi id="evening-list"></oi>
+        </div>
+      </section>
+      <section id="remembrances- after -greeting- from -prayer">
+        <div class="container">
+          <h2>أذكار بعد السلام من الصلاة المفروضة</h2>
+          <oi id="remembrances- after-prayer"></oi>
+        </div>
+      </section>
+      <section id="rosaries">
+        <div class="container">
+          <h2>تسابيح</h2>
+          <oi id="rosaries-list"></oi>
+        </div>
+      </section>
+      <section id="sleeping-remembrances">
+        <div class="container">
+          <h2>أذكار النوم</h2>
+          <oi id="sleeping-list"></oi>
+        </div>
+      </section>
+      <section id="wake-up-supplications">
+        <div class="container">
+          <h2>أذكار الاستيقاظ</h2>
+          <oi id="wake-up-list"></oi>
+        </div>
+      </section>
+      <section id="quranic-supplications">
+        <div class="container">
+          <h2>أدعية قرآنية</h2>
+          <oi id="quranic-list"></oi>
+        </div>
+      </section>
+      <section id="supplications-of-the-prophets">
+        <div class="container">
+          <h2>ادعيه الأنبياء</h2>
+          <oi id="prophets-list"></oi>
+        </div>
+      </section>
+    </main>
+    <script src="asstes/scrpits/main.js"></script>
+  </body>
 </html>

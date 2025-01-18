@@ -5,17 +5,18 @@
 }
 :root {
   --text-color: #f3aafc;
-  --btn-color: #6a185a;
+  --btn-color: #781a65;
   --bg-color: #faf8f6;
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
   background-color: var(--bg-color);
 }
 .dark-theme {
-  --text-color: #430452;
-  --btn-color: #646164;
-  --bg-color: #858382;
+  --text-color: #110313;
+  --btn-color: #7a0a7a;
+  --bg-color: #6c6a69;
 }
 section {
   padding: 20px 0;
@@ -43,7 +44,7 @@ section {
 a {
   text-decoration: none;
 }
-ul {
+li {
   list-style: none;
 }
 img {
@@ -87,10 +88,9 @@ header .container nav img {
     display: none;
     background-color: var(--text-color);
   }
-  header nav ul li a{
+  header nav ul li a {
     display: block;
     padding: 15px;
-
   }
 }
 @media (min-width: 992px) {
@@ -108,6 +108,30 @@ header nav ul li a {
   color: var(--bg-color);
   font-weight: bold;
 }
-header nav ul li a:hover{
+header nav ul li a:hover {
   color: var(--btn-color);
+}
+section h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--btn-color);
+  margin: 30px 0;
+}
+
+section li {
+  margin: 20px;
+  color: var(--bg-color);
+  background-color: var(--text-color);
+}
+section li p {
+  line-height: 1.6;
+}
+section li p:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--btn-color);
+  padding: 15px;
+  border-radius: 6px;
 }
